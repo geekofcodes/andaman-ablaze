@@ -40,19 +40,19 @@ const Navbar = () => {
                 Home
               </a>
               <a
-                href="/about"
+                href="#/about-us"
                 className="text-gray-600 py-2 px-2 hover:text-red-400 transition-colors duration-300 ease-in-out border-red-400 hover:border-b-1"
               >
                 About
               </a>
               <a
-                href="/contact"
+                href="#/contact-us"
                 className="text-gray-600 py-2 px-2 hover:text-red-400 transition-colors duration-300 ease-in-out border-red-400 hover:border-b-1"
               >
                 Contact Us
               </a>
               <a
-                href="/pricing"
+                href="#/pricing"
                 className="text-gray-600 py-2 px-2 hover:text-red-400 transition-colors duration-300 ease-in-out border-red-400 hover:border-b-1"
               >
                 Pricing Options
@@ -93,19 +93,19 @@ const Navbar = () => {
               Home
             </a>
             <a
-              href="/about"
+              href="#/about-us"
               className="text-gray-600 hover:text-red-400 transition-colors duration-300 ease-in-out py-2"
             >
               About
             </a>
             <a
-              href="/contact"
+              href="#/contact-us"
               className="text-gray-600 hover:text-red-400 transition-colors duration-300 ease-in-out py-2"
             >
               Contact Us
             </a>
             <a
-              href="/pricing"
+              href="#/pricing"
               className="text-gray-600 hover:text-red-400 transition-colors duration-300 ease-in-out py-2"
             >
               Pricing Options
