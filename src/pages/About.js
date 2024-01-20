@@ -8,11 +8,6 @@ import bgImg1 from '../assets/images/wallpaper-4.jpg'
 
 const About = () => {
 
-  const fascinateInlineStyle = {
-    fontFamily: 'Fascinate Inline, cursive',
-    fontSize: '50px'
-  };
-
   const delaGothicStyle = {
     fontFamily: 'Dela Gothic One',
   }
