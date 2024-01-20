@@ -6,6 +6,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
 
+  const zillaSlabBoldStyle = {
+    fontFamily: 'Zilla Slab, serif',
+    fontWeight: 700,
+  }
+
   useEffect(() => {
     const handleOutsideClick = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -26,12 +31,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0 flex items-center cursor-pointer">
             {/* Replace the logo and website name with your own */}
-            <p className="px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-500 hover:text-gray-700 ">
+            <p className="px-1 pt-1 border-b-2 border-transparent  font-medium text-gray-500 hover:text-gray-700 " style={zillaSlabBoldStyle}>
                 Andaman Ablaze
             </p>
           </div>
           <div className="hidden md:block">
-            <div className="ml-4 flex space-x-4">
+            <div className="ml-4 flex space-x-4" style={zillaSlabBoldStyle}>
               {/* Replace the navigation links with your own */}
               <a
                 href="/"
@@ -84,7 +89,7 @@ const Navbar = () => {
         leaveTo="opacity-0 scale-95"
       >
         <div className="md:hidden" ref={menuRef}>
-          <div className="flex flex-col items-center px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="flex flex-col items-center px-2 pt-2 pb-3 space-y-1 sm:px-3" style={zillaSlabBoldStyle}>
             {/* Replace the navigation links with your own */}
             <a
               href="/"

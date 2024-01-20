@@ -7,12 +7,6 @@ import { Breadcrumbs } from '@mui/material';
 import { NavigateNext } from '@mui/icons-material';
 
 const Contact = () => {
-  const bgImageStyle = {
-    backgroundImage: `url(${bgImg})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  };
 
   const delaGothicStyle = {
     fontFamily: 'Dela Gothic One',
