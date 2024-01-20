@@ -92,31 +92,11 @@ const Contact = () => {
           </div>
           <div className="flex flex-wrap justify-center gap-8">
             <ContactItem icon={FaMapMarkerAlt} title="Visit Us" details="Port Blair, Andaman and Nicobar Islands" color="text-blue-500" />
-            {/* <ContactItem icon={FaPhone} title="Call Us" details="+123 456 7890" color="text-green-500" /> */}
+            <ContactItem icon={FaPhone} title="Call Us" details="+123 456 7890" color="text-green-500" />
             <ContactItem icon={FaEnvelope} title="Email Us" details="info.andamanablaze@gmail.com" color="text-red-500" />
           </div>        
         </div>
-        <div className="w-full md:w-1/2 ">
-              {/* <div className="mb-4">
-                <div className="flex items-center mb-2">
-                  <FaMapMarker className="text-blue-500 mr-2" />
-                  <span>Your Address Here</span>
-                </div>
-                <div className="flex items-center mb-2">
-                  <FaEnvelope className="text-blue-500 mr-2" />
-                  <span>YourEmail@example.com</span>
-                </div>
-                <div className="flex items-center">
-                  <FaPhone className="text-blue-500 mr-2" />
-                  <span>+1 (123) 456-7890</span>
-                </div>
-              </div> */}
-          {/* <div className="flex flex-wrap justify-center gap-8">
-            <ContactItem icon={FaMapMarkerAlt} title="Visit Us" details="123 Tourism Street\nIsland City, IC 12345" color="text-blue-500" />
-            <ContactItem icon={FaPhone} title="Call Us" details="+123 456 7890" color="text-green-500" />
-            <ContactItem icon={FaEnvelope} title="Email Us" details="info@shorelineescape.com" color="text-red-500" />
-          </div> */}
-        </div>
+
 
         
       </section>
