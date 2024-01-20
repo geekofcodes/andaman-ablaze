@@ -4,7 +4,7 @@ import bgImg1 from '../assets/images/bg-Image-2.jpg'
 import bgImg2 from '../assets/images/bg-Image-3.jpg'
 import { AwesomeButton } from 'react-awesome-button';
 import 'react-awesome-button/dist/styles.css';
-import { GoPerson } from "react-icons/go";
+import { GoRocket, GoPerson } from "react-icons/go";
 import { FaUsers, FaCheckCircle, FaCogs, FaSmile } from 'react-icons/fa';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
@@ -74,7 +74,7 @@ const Home = () => {
             >
                 <div className="text-center mx-8 lg:mx-auto max-w-2xl">
                 <div>
-                    <div className="text-4xl md:text-6xl font-bold mb-4" style={delaGothicStyle} >Welcome to Shoreline Escape</div>
+                    <div className="text-4xl md:text-6xl font-bold mb-4" style={delaGothicStyle} >Welcome to Andaman Ablaze</div>
                     <div className="text-lg md:text-xl mb-6 font-bold" style={zillaSlabBoldStyle} >
                     Dive into the mystical world of Andaman and Nicobar Islands with us. We provide curated travel packages that offer unlimited adventure, relaxation, and fun all in one place. Experience the tropical getaway of your dreams!
                     </div>
@@ -103,7 +103,7 @@ const Home = () => {
                     className="text-base md:text-xl mx-0 md:mx-10 my-4 md:my-0 w-full md:w-2/4 text-justify" 
                     style={zillaSlabStyle}
                 >
-                    Discover the enchanting charm of Andaman and Nicobar Islands with Shoreline Escape, where the vibrant waves play and dance with the rhythm of your heart. Dive into the crystal-blue water or bask in breathtaking sunsets.
+                    Discover the enchanting charm of Andaman and Nicobar Islands with Andaman Ablaze, where the vibrant waves play and dance with the rhythm of your heart. Dive into the crystal-blue water or bask in breathtaking sunsets.
                 </div>
                 </div>
             </section>
