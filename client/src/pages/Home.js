@@ -4,7 +4,7 @@ import bgImg1 from '../assets/images/bg-Image-2.jpg'
 import bgImg2 from '../assets/images/bg-Image-3.jpg'
 import { AwesomeButton } from 'react-awesome-button';
 import 'react-awesome-button/dist/styles.css';
-import { GoRocket, GoPerson } from "react-icons/go";
+import { GoPerson } from "react-icons/go";
 import { FaUsers, FaCheckCircle, FaCogs, FaSmile } from 'react-icons/fa';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
